@@ -1,27 +1,16 @@
 {
   "name": "TMR",
   "version": "0.0.1",
-  "description": "TIMER",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "mocha"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/t32k/tmr.git"
-  },
-  "author": "Koji Ishimoto",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/t32k/tmr/issues"
-  },
-  "homepage": "https://github.com/t32k/tmr",
   "dependencies": {
-    "express": "~3.4.6",
-    "moment": "~2.4.0",
-    "async": "~0.2.9",
-    "lodash": "~2.4.1",
-    "jade": "~0.35.0",
-    "mongodb": "~1.4.0-rc2"
+      "express": "~3.4.6",
+      "moment": "~2.4.0",
+      "async": "~0.2.9",
+      "lodash": "~2.4.1",
+      "jade": "~0.35.0",
+      "mongodb": "~1.4.0-rc2"
   }
 }
