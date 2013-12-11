@@ -1,0 +1,8 @@
+{
+  "name": "TMR",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "momentjs": "~2.4.0"
+  }
+}
